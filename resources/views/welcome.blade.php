@@ -2,27 +2,19 @@
 @section('title')
 Spider Web Arts And Graphics | Home
 @endsection
+@section('css')
+<link rel="stylesheet" href="css/spider.css">
+@endsection
 @section('content')
-  <section class="probootstrap-slider flexslider">
+  <section  class="probootstrap-slider flexslider">
+    <div id="particles-js">
     <ul class="slides">
-      <li style="background-image: url(img/slider_1.jpg);">
+      <li >
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Spider Web</h2>
-                <p><a href="/work" target="_blank" class="btn btn-primary">View Our Works</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(img/slider_2.jpg);">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12 text-center">
-              <div class="slides-text probootstrap-animate">
-                <h2>Arts And Graphics</h2>
+                <h2>Spider Web<br>Design And Arts</h2>
                 <p><a href="/work" target="_blank" class="btn btn-primary">View Our Works</a></p>
               </div>
             </div>
@@ -30,7 +22,9 @@ Spider Web Arts And Graphics | Home
         </div>
       </li>
       
+      
     </ul>
+    </div>
   </section>
   <!-- END: slider  -->
 
@@ -45,7 +39,7 @@ Spider Web Arts And Graphics | Home
             </div>
             <div class="text">
               <h3 class="heading">Typography</h3>
-              <p>Spider Web Graphics provides you the most impressive and catchy custom typography works. we use custom fonts and colours to bring you a most beautiful visual experience </p>
+              <p>Spider Web Design And Arts provides you the most impressive and catchy custom typography works. we use custom fonts and colours to bring you a most beautiful visual experience </p>
               
             </div>
 
@@ -58,7 +52,7 @@ Spider Web Arts And Graphics | Home
             </div>
             <div class="text">
               <h3 class="heading">Artworks</h3>
-              <p>Spider Web Graphics provides you a wide range of pre-built general artworks which you can choose from for your newly owned houses and also for gifting to your loved ones. </p>
+              <p>Spider Web Design And Arts provides you a wide range of pre-built general artworks which you can choose from for your newly owned houses and also for gifting to your loved ones. </p>
               
             </div>
           </div>
@@ -84,8 +78,8 @@ Spider Web Arts And Graphics | Home
               <i class="icon-laptop3"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Computer Formatting</h3>
-              <p>Most of the time we all experience slow performance of our PC, but we are here to help you, Spiderweb's optimised CF package will help your pc to run smoothly </p>
+              <h3 class="heading">Caricature Works</h3>
+              <p>Spider Web Design And Arts provides you with the most awesome looking caricatures, which will be one of the best visual experience in your life  </p>
              
             </div>
 
@@ -97,8 +91,8 @@ Spider Web Arts And Graphics | Home
             <i class="fab fa-uncharted"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Mechanical Designing Softwares</h3>
-              <p>We provide mechanical designing softwares with valid license and we also support you withmany other custom packages for your designing works </p>
+              <h3 class="heading">Mechanical Designing Works</h3>
+              <p>We undertake mechanical designing works to bring your hardwares and machines a unique design with modern softwares like Autocad</p>
               
             </div>
           </div>
@@ -109,8 +103,8 @@ Spider Web Arts And Graphics | Home
             <i class="fas fa-video"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Wedding Works</h3>
-              <p>Spider Web's Wedding work is not limited to photoshoot only but also extends to a modern visual experience like "Save The Date", We undertake the full day schedule and we will arrange things as to get the maximum output for the cash you spent to us </p>
+              <h3 class="heading">Wedding Gift Works</h3>
+              <p>Spider Web's Wedding gift work is a unique section in art industry, we provide life to each moments in post and pre wedding events by converting each image to a piece of artwork or caricature  </p>
               
             </div>
           </div>
@@ -198,4 +192,9 @@ Spider Web Arts And Graphics | Home
     </div>
   </section>
   <!-- END section -->
+@section('script')
+<script src="js/spider.js"></script>
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+@endsection
 @endsection
