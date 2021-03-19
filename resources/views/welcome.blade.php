@@ -1,6 +1,6 @@
 @extends('layouts.MainLayout')
 @section('title')
-Spider Web Arts And Graphics | Home
+Spider Web Design And Arts | Home
 @endsection
 
 @section('content')
