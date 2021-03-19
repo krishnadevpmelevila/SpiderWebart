@@ -75,7 +75,7 @@ Spider Web Arts And Graphics | Home
           <div class="service left-icon probootstrap-animate">
 
             <div class="icon">
-              <i class="icon-laptop3"></i>
+            <i class="far fa-meh-blank"></i>
             </div>
             <div class="text">
               <h3 class="heading">Caricature Works</h3>
@@ -100,11 +100,11 @@ Spider Web Arts And Graphics | Home
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-            <i class="fas fa-video"></i>
+            <i class="fas fa-heart"></i>
             </div>
             <div class="text">
               <h3 class="heading">Wedding Gift Works</h3>
-              <p>Spider Web's Wedding gift work is a unique section in art industry, we provide life to each moments in post and pre wedding events by converting each image to a piece of artwork or caricature  </p>
+              <p>Spider Web's wedding gift work is a unique section in art industry, we provide life to each moments in post and pre wedding events by converting each image to a piece of artwork or caricature  </p>
               
             </div>
           </div>
