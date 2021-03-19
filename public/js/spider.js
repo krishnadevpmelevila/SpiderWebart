@@ -413,3 +413,4 @@ function shadeColor(color, shade) {
 
     return newColorStr;
 }
+//ping
