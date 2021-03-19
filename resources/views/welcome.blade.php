@@ -2,12 +2,10 @@
 @section('title')
 Spider Web Arts And Graphics | Home
 @endsection
-@section('css')
-<link rel="stylesheet" href="css/spider.css">
-@endsection
+
 @section('content')
   <section  class="probootstrap-slider flexslider">
-    <div id="particles-js">
+    
     <ul class="slides">
       <li >
         <div class="container">
@@ -24,7 +22,8 @@ Spider Web Arts And Graphics | Home
       
       
     </ul>
-    </div>
+    <canvas id="web">
+    </canvas>
   </section>
   <!-- END: slider  -->
 
