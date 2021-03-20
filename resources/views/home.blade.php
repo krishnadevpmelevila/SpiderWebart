@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h3 class="text-center">Tessa Art Work Admin Panel</h3>
+<h3 class="text-center">Spider Web Admin Panel</h3>
         <form action="{{ url('edit') }}" class="form-image-upload" method="POST" enctype="multipart/form-data">
 
 
