@@ -6,6 +6,6 @@
     <link href="http://fonts.cdnfonts.com/css/grease" rel="stylesheet">
                 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles-merged.css?7">
-    <link rel="stylesheet" href="css/style.min.css?7">
+    <link rel="stylesheet" href="css/styles-merged.css?8">
+    <link rel="stylesheet" href="css/style.min.css?8">
     <link rel="stylesheet" href="css/custom.css">

@@ -45,8 +45,8 @@ Spider Web Design And Arts | Home
               <i class="icon-pencil"></i>
             </div>
             <div class="text">
-              <h3 class="heading">Artworks</h3>
-              <p>Spider Web Design And Arts provides you a wide range of pre-built general artworks which you can choose from for your newly owned houses and also for gifting to your loved ones. </p>
+              <h3 class="heading">Pencil Sketch</h3>
+              <p>Spider Web Design And Arts provides you a wide range of pencil sketch artworks, We provide both colour pencil sketch and black and white pencil sketch works which will provide a visual treat to your mind</p>
               
             </div>
           </div>
@@ -82,11 +82,11 @@ Spider Web Design And Arts | Home
         <div class="col-md-4">
           <div class="service left-icon probootstrap-animate">
             <div class="icon">
-            <i class="fab fa-uncharted"></i>
+            <i class="fas fa-cogs"></i>
             </div>
             <div class="text">
               <h3 class="heading">Mechanical Designing Works</h3>
-              <p>We undertake mechanical designing works to bring your hardwares and machines a unique design with modern softwares like Autocad</p>
+              <p>We undertake mechanical engineering designing works to bring your hardwares and machines a unique design with modern softwares like Autocad,Catia and Solid Works</p>
               
             </div>
           </div>
@@ -113,7 +113,7 @@ Spider Web Design And Arts | Home
             </div>
             <div class="text">
               <h3 class="heading">Advertisment Works</h3>
-              <p>Our custom targeted advertisment helps you to stay special from the crowd, and also helps you to grow your brand to a high level. We mainly target on social media advertisments and digital marketing</p>
+              <p>Spider Web's custom advertisment graphics and artwork helps your ad to catchy and elegant. It will be always unique form the other type of advertisment as we provides you with the best optimised design for your advertisments</p>
               
             </div>
 
@@ -187,7 +187,7 @@ Spider Web Design And Arts | Home
   </section>
   <!-- END section -->
 @section('script')
-<script src="/js/spider.js?1504"></script>
+<script src="/js/spider.js?1505"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 @endsection
