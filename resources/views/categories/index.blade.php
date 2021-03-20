@@ -2,7 +2,13 @@
 @section('title')
 Spider Web Arts And Graphics | Works
 @endsection
-
+@section('css')
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
+    <link rel="stylesheet" href="css/work.css">
+    
+@endsection
 @section('content')
 
 <div class="container ">
@@ -16,29 +22,29 @@ Spider Web Arts And Graphics | Works
             <div class="col-sm-12 col-md-4" >
                 
                 <a class="lightbox" href="{{route('categories.create')}}">
-                    <img src="../img/arccanvaspaint.jpg" alt="Park">
+                    <img src="img/arccanvaspaint.jpg" alt="Park">
                 </a>
                 </a>
             </div>
             <div class="col-sm-6 col-md-4">
                 <a  class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
-                <img src="../img/cartooncari.jpg" alt="Park">
+                <img src="img/cartooncari.jpg" alt="Park">
 
                 </a>
             </div>
             <div class="col-sm-6 col-md-4">
                 <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
-                    <img src="../img/pcolorpencilsketch.jpg" alt="Tunnel">
+                    <img src="img/pcolorpencilsketch.jpg" alt="Tunnel">
                 </a>
             </div>
             <div class="col-sm-6 col-md-4">
                 <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
-                    <img src="../img/ppencilsketch.jpg" alt="Traffic">
+                    <img src="img/ppencilsketch.jpg" alt="Traffic">
                 </a>
             </div>
             <div class="col-sm-6 col-md-4">
                 <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
-                    <img src="../img/ptypo.jpg" alt="Coast">
+                    <img src="img/ptypo.jpg" alt="Coast">
                 </a>
             </div> 
            
