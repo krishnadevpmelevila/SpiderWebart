@@ -4,7 +4,7 @@
 
 <header role="banner" class="probootstrap-header">
   <div class="container">
-      <a href="index.html" class="probootstrap-logo">Spider Web<span>.</span></a>
+     
       
       <a href="#" class="probootstrap-burger-menu visible-xs" ><i>Menu</i></a>
       <div class="mobile-menu-overlay"></div>
