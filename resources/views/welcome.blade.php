@@ -7,12 +7,11 @@ Spider Web Design And Arts | Home
   
   
     
-    <canvas id="web">
-    </canvas>
-      
-      
-      
     
+      
+      
+      
+<div>
     
   <!-- END: slider  -->
   <li >
@@ -20,13 +19,16 @@ Spider Web Design And Arts | Home
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Spider Web<br>Design And Arts</h2>
+                <h2>Spider Web<br>Design & Arts</h2>
                 <p><a href="/work" target="_blank" class="btn btn-primary">View Our Works</a></p>
               </div>
             </div>
           </div>
         </div>
       </li>
+      </div>
+      <canvas id="web">
+    </canvas>
   <section class="probootstrap-section">
     <div class="container">
       <div class="row">
