@@ -5,31 +5,23 @@ Spider Web Design And Arts | Home
 
 @section('content')
   
-  
-    
-    
-      
-      
-      
-<div>
-    
   <!-- END: slider  -->
+  
+  <section class="probootstrap-section">
   <li >
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
-                <h2>Spider Web<br>Design & Arts</h2>
+                <h2>Spider Web<br>Design And Arts</h2>
                 <p><a href="/work" target="_blank" class="btn btn-primary">View Our Works</a></p>
               </div>
             </div>
           </div>
         </div>
       </li>
-      </div>
-      <canvas id="web">
+  <canvas id="web">
     </canvas>
-  <section class="probootstrap-section">
     <div class="container">
       <div class="row">
         <div class="col-md-4">
@@ -38,6 +30,7 @@ Spider Web Design And Arts | Home
             <div class="icon">
               <i class="icon-font"></i>
             </div>
+
             <div class="text">
               <h3 class="heading">Typography</h3>
               <p>Spider Web Design And Arts provides you the most impressive and catchy custom typography works. we use custom fonts and colours to bring you a most beautiful visual experience </p>
@@ -194,7 +187,7 @@ Spider Web Design And Arts | Home
   </section>
   <!-- END section -->
 @section('script')
-<script src="/js/spider.js?1503"></script>
+<script src="/js/spider.js?1502"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 @endsection
