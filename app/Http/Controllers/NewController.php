@@ -8,6 +8,6 @@ class NewController extends Controller
 {
     public function work()
     {
-        return view('work')->with('categories', Category::all());;
+        return view('work');
     }
 }
