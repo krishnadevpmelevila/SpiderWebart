@@ -4,10 +4,18 @@ Spider Web Design And Arts | Home
 @endsection
 
 @section('content')
-  <section  class="probootstrap-slider flexslider">
+  
+  
     
-    <ul class="slides">
-      <li >
+    <canvas id="web">
+    </canvas>
+      
+      
+      
+    
+    
+  <!-- END: slider  -->
+  <li >
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -19,14 +27,6 @@ Spider Web Design And Arts | Home
           </div>
         </div>
       </li>
-      
-      
-    </ul>
-    <canvas id="web">
-    </canvas>
-  </section>
-  <!-- END: slider  -->
-
   <section class="probootstrap-section">
     <div class="container">
       <div class="row">
