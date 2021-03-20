@@ -194,7 +194,7 @@ Spider Web Design And Arts | Home
   </section>
   <!-- END section -->
 @section('script')
-<script src="/js/spider.js?1502"></script>
+<script src="/js/spider.js?1503"></script>
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 @endsection
