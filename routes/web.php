@@ -14,8 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/work','NewController@work' );
+Route::get('/canvas','GalleryController@canvas' );
 
 Auth::routes();
+Route::resource('categories','CategoriesController');
 
 Route::get('/home', 'HomeController@index')->name('home');

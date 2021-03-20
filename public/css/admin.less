@@ -1,0 +1,128 @@
+body {
+    font-family 			: sans-serif;
+      
+      code {
+          font-size: 1.2em;
+          display: block;
+          
+          &.title {
+              font-size: 1.6em;
+          }
+      }
+  }
+  
+  @tile-size          : 250px;
+  @border-outline     : 1px solid #333;
+  
+  .tile-group {
+    font-size         : 0;
+      margin 						: 30px 0; //Just for presentarion. Feel free to omit it.
+    
+    .tile {
+      position        : relative;
+      display         : inline-flex;
+      align-items     : center;
+      justify-content : center;
+      width           : @tile-size;
+      height          : @tile-size;
+      border          : @border-outline;
+      outline         : @border-outline;
+      font-size       : 20px;
+      overflow        : hidden;
+      vertical-align  : top;
+      transition      : background-color 150ms, border 150ms, outline 150ms;
+      cursor          : pointer;
+      
+      .content {
+        text-align    : center;
+        user-select   : none;
+        
+        .icon {
+          position    : relative;
+          font-size   : 2.5em;
+                  top 				: 0;
+                  transition  : top 150ms, font-size 150ms;
+        }
+      
+        .title {
+                  position    : relative;
+          font-size   : 1.2em;
+                  opacity     : 1;
+                  transition  : opacity 150ms;
+                  letter-spacing : 2px;
+        }
+              
+              .msg {
+                  position 		: absolute;
+                  top 				: @tile-size;
+                  left 				: 0;
+                  width 			: 100%;
+                  transition  : top 150ms;
+                  font-family : monospace;
+                  font-size 	: 0.8em;
+              }
+      }
+          
+          &:hover {
+        background-color : #333;
+        color            : white;
+              
+              &.msg-tile {
+                  .icon {
+                      font-size    : 1.8em;
+                      top 				 : -(@tile-size * 0.25);
+                  }
+                  .title {
+                      opacity      : 0;
+                  }
+                  .msg {
+                      top 				 : (@tile-size * 0.5);
+                  }
+              }
+      }
+    }
+      
+      
+      @less-bg : #1d365d;
+      @sass-bg : #c6538c;
+      @disc-bg : #7289da;
+      @spot-bg : #1ed760;
+      @band-bg : #639aa9;
+      @wapp-bg : #5ed054;
+      @tube-bg : #f00;
+      
+      &.colorful {
+          .tile {
+              &.spotify:hover {
+                  background-color 		: @spot-bg;
+                  border-color 				: @spot-bg;
+                  outline 						: 1px solid @spot-bg;
+              }
+              &.less:hover {
+                  background-color 		: @less-bg;
+                  border-color 				: @less-bg;
+                  outline 						: 1px solid @less-bg;
+              }
+              &.discord:hover {
+                  background-color 		: @disc-bg;
+                  border-color 				: @disc-bg;
+                  outline 						: 1px solid @disc-bg;
+              }	
+              &.bandcamp:hover {
+                  background-color 		: @band-bg;
+                  border-color 				: @band-bg;
+                  outline 						: 1px solid @band-bg;
+              }
+              &.whatsapp:hover {
+                  background-color 		: @wapp-bg;
+                  border-color 				: @wapp-bg;
+                  outline 						: 1px solid @wapp-bg;
+              }
+              &.youtube:hover {
+                  background-color 		: @tube-bg;
+                  border-color 				: @tube-bg;
+                  outline 						: 1px solid @tube-bg;
+              }
+          }
+      }
+  }
