@@ -10,6 +10,7 @@
 
 
 <style type="text/css">
+
     .gallery {
         display: inline-block;
         margin-top: 20px;
@@ -124,4 +125,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 <script src="../js/work.js?2"></script>
+
 @endsection

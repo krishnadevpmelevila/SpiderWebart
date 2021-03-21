@@ -42,7 +42,7 @@ class UploadController extends Controller
     {
         $this->validate($request, [
     		'title' => 'required',
-            'image' => 'required',
+            'image' => 'required|mimes:jpeg,png,JPG,jpg,gif,svg',
             'cat' => 'required'
         ]);
 
