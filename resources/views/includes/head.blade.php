@@ -7,5 +7,5 @@
                 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css?11">
-    <link rel="stylesheet" href="css/style.min.css?11">
+    <link rel="stylesheet" href="css/style.min.css?11 ">
     <link rel="stylesheet" href="css/custom.css">

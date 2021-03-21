@@ -1,6 +1,6 @@
 @extends('layouts.WorkLayout')
 @section('css')
-<link rel="stylesheet" href="css/work.css">
+<link rel="stylesheet" href="css/work.css?2">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
@@ -69,5 +69,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-<script src="js/work.js"></script>
+<script src="js/work.js?2"></script>
 @endsection
