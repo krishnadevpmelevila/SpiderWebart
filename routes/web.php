@@ -16,14 +16,11 @@ Route::get('/', function () {
 });
 
 Route::get('/work','NewController@work' );
-Route::get('/canvas','GalleryController@canvas' );
-Route::get('/typography','GalleryController@typography' );
-Route::get('/cartoon','GalleryController@cartoon' );
-Route::get('/portpencil','GalleryController@portpencil' );
-Route::get('/colorpencil','GalleryController@colorpencil' );
+Route::get('/canvas/{cat}','GalleryController@canvas' );
 
 
 Auth::routes();
 
 Route::get('/admin', 'HomeController@admin');
+Route::post('/upload', 'UploadController@store');
 Route::get('/home', 'HomeController@index')->name('home');

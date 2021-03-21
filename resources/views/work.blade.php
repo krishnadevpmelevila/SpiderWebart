@@ -38,7 +38,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="typography"  class="hex-content">
+                                    <a href="canvas/Portrait Typography"  class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-universal-access"></i>
@@ -64,7 +64,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="portpencil" class="hex-content">
+                                    <a href="canvas/Portrait Pencil Sketch" class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-bullseye"></i>
@@ -90,7 +90,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="colorpencil" class="hex-content">
+                                    <a href="canvas/Portrait Colour Pencil Sketch" class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-braille"></i>
@@ -117,7 +117,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="cartoon" class="hex-content">
+                                    <a href="canvas/Cartoon Caricature" class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-life-ring"></i>
@@ -144,7 +144,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="canvas"  class="hex-content">
+                                    <a href="canvas/Acrylic Canvas Painting"  class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-map-signs"></i>

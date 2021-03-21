@@ -4,10 +4,10 @@
 <br>
 <br>
 <h3 class="text-center">Spider Web Admin Panel</h3>
-        <form action="" class="form-image-upload" method="POST" enctype="multipart/form-data">
+        <form action="upload" class="form-image-upload" method="POST" enctype="multipart/form-data">
 
 
-            {!! csrf_field() !!}
+            @csrf
 
 
             @if (count($errors) > 0)
@@ -42,11 +42,11 @@
                 <div class="col-md-4">
                     <strong>Category</strong>
                     <select name="cat" id="cars" class="form-control">
-                     <option value="typography">Portrait Typography</option>
-                     <option value="pencil">Portrait Pencil Sketch</option>
-                     <option value="colorpencil">Portrait Colour Pencil Sketch</option>
-                     <option value="cartoon">Cartoon Caricature</option>
-                     <option value="canvas">Acrylic Canvas Painting</option>
+                     <option value="Portrait Typography">Portrait Typography</option>
+                     <option value="Portrait Pencil Sketch">Portrait Pencil Sketch</option>
+                     <option value="Portrait Colour Pencil Sketch">Portrait Colour Pencil Sketch</option>
+                     <option value="Cartoon Caricature">Cartoon Caricature</option>
+                     <option value="Acrylic Canvas Painting">Acrylic Canvas Painting</option>
                     </select>
                 </div>
                 <div class="col-md-6 text-right">

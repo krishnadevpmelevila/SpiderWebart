@@ -2,13 +2,19 @@
 
 namespace App\Http\Controllers;
 
+use App\Gallery;
 use Illuminate\Http\Request;
 
 class GalleryController extends Controller
 {
-    public function canvas()
+    public function canvas($id)
     {
-        return view('canvas');
+        $new=array();
+        $new=Gallery::select('cat','title', 'image')
+        ->where('cat', '=', $id)
+        ->first();
+        
+        return view('canvas')->with('images',compact('new'));
     }
     public function typography()
     {
