@@ -1,65 +1,73 @@
 @extends('layouts.WorkLayout')
-@section('title')
-Spider Web Arts And Graphics | Works
-@endsection
 @section('css')
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Droid+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
-    <link rel="stylesheet" href="css/work.css">
-    
+<link rel="stylesheet" href="css/work.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
 @endsection
 @section('content')
 
-<div class="container">
+<section class="container">
 
-   
-    <div class="tz-gallery">
+	<div class="row gallery">
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=1">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=1" alt="Random Image"></figure>
+			</a>
+		</div>
 
-        <div class="row">
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=2">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=2" alt="Random Image"></figure>
+			</a>
+		</div>
 
-            <div class="col-sm-12 col-md-4">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/bridge.jpg" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/park.jpg" alt="Park">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/tunnel.jpg" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-8">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/traffic.jpg" alt="Traffic">
-                </a>
-            </div>
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/rails.jpg" alt="Coast">
-                </a>
-            </div> 
-            <div class="col-sm-6 col-md-4">
-                <a class="lightbox" href="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg">
-                    <img src="https://raw.githubusercontent.com/LeshikJanz/libraries/master/Related%20images/Bootstrap%20example/coast.jpg" alt="Rails">
-                </a>
-            </div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=3">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=3" alt="Random Image"></figure>
+			</a>
+		</div>
 
-        </div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=4">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=4" alt="Random Image"></figure>
+			</a>
+		</div>
 
-    </div>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=5">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=5" alt="Random Image"></figure>
+			</a>
+		</div>
 
-</div>
-@section('script')
-<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-<script>
-    baguetteBox.run('.tz-gallery');
-</script>
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=6">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6" alt="Random Image"></figure>
+			</a>
+		</div>
+
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=6">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=6" alt="Random Image"></figure>
+			</a>
+		</div>
+
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=7">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=7" alt="Random Image"></figure>
+			</a>
+		</div>
+
+		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
+			<a href="https://picsum.photos/940/650?random=8">
+				<figure><img class="img-fluid img-thumbnail" src="https://picsum.photos/940/650?random=8" alt="Random Image"></figure>
+			</a>
+		</div>
+	</div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.5/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script src="js/work.js"></script>
 @endsection
-@endsection
-
-
