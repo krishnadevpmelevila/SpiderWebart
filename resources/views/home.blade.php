@@ -1,8 +1,10 @@
-@extends('layouts.app')
+@extends('layouts.AdminLayout')
 
 @section('content')
+<br>
+<br>
 <h3 class="text-center">Spider Web Admin Panel</h3>
-        <form action="{{ url('edit') }}" class="form-image-upload" method="POST" enctype="multipart/form-data">
+        <form action="" class="form-image-upload" method="POST" enctype="multipart/form-data">
 
 
             {!! csrf_field() !!}
@@ -29,18 +31,28 @@
 
 
             <div class="row">
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <strong>Title:</strong>
                     <input type="text" name="title" class="form-control" placeholder="Title">
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <strong>Image:</strong>
                     <input type="file" name="image" class="form-control">
                 </div>
+                <div class="col-md-4">
+                    <strong>Category</strong>
+                    <select name="cat" id="cars" class="form-control">
+                     <option value="typography">Portrait Typography</option>
+                     <option value="pencil">Portrait Pencil Sketch</option>
+                     <option value="colorpencil">Portrait Colour Pencil Sketch</option>
+                     <option value="cartoon">Cartoon Caricature</option>
+                     <option value="canvas">Acrylic Canvas Painting</option>
+                    </select>
+                </div>
                 <div class="col-md-6 text-right">
                     <br />
-                    <button type="submit" class="btn btn-success">Upload</button>
-                    <a class="btn btn-primary" href="/"> Back to home</a>
+                    <button type="submit" style="box-shadow: 20px; background-color: white; color: black;" class="btn">Upload</button>
+                    <a class="btn "style="background-color: white; color: black;" href="/"> Back to home</a>
 
                 </div>
 

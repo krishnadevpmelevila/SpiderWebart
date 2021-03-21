@@ -17,8 +17,13 @@ Route::get('/', function () {
 
 Route::get('/work','NewController@work' );
 Route::get('/canvas','GalleryController@canvas' );
+Route::get('/typography','GalleryController@typography' );
+Route::get('/cartoon','GalleryController@cartoon' );
+Route::get('/portpencil','GalleryController@portpencil' );
+Route::get('/colorpencil','GalleryController@colorpencil' );
+
 
 Auth::routes();
-Route::resource('categories','CategoriesController');
 
+Route::get('/admin', 'HomeController@admin');
 Route::get('/home', 'HomeController@index')->name('home');

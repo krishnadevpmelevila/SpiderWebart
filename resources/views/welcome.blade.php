@@ -14,7 +14,7 @@ Spider Web Design And Arts | Home
             <div class="col-md-12 text-center">
               <div class="slides-text probootstrap-animate">
                 <h2 style="font-family: 'Grease', sans-serif;">Spider Web<br>Design And Arts</h2>
-                <p><a href="/work" target="_blank" class="btn btn-primary">View Our Works</a></p>
+                <p><a href="/work" class="btn btn-primary">View Our Works</a></p>
               </div>
             </div>
           </div>
