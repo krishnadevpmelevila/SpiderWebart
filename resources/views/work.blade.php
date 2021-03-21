@@ -38,7 +38,7 @@ Spider Web Arts And Graphics | Works
                                         <div></div>
                                         <div></div>
                                     </div>
-                                    <a href="/canvas" target="_blank" class="hex-content">
+                                    <a href="canvas"  class="hex-content">
                                         <span class="hex-content-inner">
                                             <span class="icon">
                                                 <i class="fa fa-universal-access"></i>
