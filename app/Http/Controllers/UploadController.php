@@ -16,7 +16,7 @@ class UploadController extends Controller
     {
         $this->middleware('auth');
     }
-    
+
     public function index()
     {
         //
@@ -42,7 +42,7 @@ class UploadController extends Controller
     {
         $this->validate($request, [
     		'title' => 'required',
-            'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:7000',
+            'image' => 'required',
             'cat' => 'required'
         ]);
 
@@ -102,6 +102,8 @@ class UploadController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Gallery::find($id)->delete();
+    	return back()
+    		->with('success','Image removed successfully.');
     }
 }

@@ -19,8 +19,10 @@ Route::get('/work','NewController@work' );
 Route::get('/canvas/{cat}','GalleryController@canvas' );
 
 
+
 Auth::routes();
 
 Route::get('/admin', 'HomeController@admin');
 Route::post('/upload', 'UploadController@store');
+Route::delete('/edit/{id}','UploadController@destroy' );
 Route::get('/home', 'HomeController@index')->name('home');

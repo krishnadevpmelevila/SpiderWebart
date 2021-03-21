@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Gallery;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -23,7 +25,10 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+       
+        
+        $images = Gallery::get();
+    	return view('home',compact('images'));
     }
     public function admin()
     {
