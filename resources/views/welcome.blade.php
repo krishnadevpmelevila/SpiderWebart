@@ -8,7 +8,8 @@ Spider Web Design And Arts | Home
   <!-- END: slider  -->
   
   <section class="probootstrap-section">
-  <li >
+  
+
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
@@ -19,7 +20,7 @@ Spider Web Design And Arts | Home
             </div>
           </div>
         </div>
-      </li>
+      
   <canvas id="web">
     </canvas>
     <div class="container">
