@@ -22,12 +22,11 @@
         <div class="extra-text visible-xs"> 
           <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>
           <h5>Address</h5>
-          <p>198 West 21th Street, Suite 721 New York NY 10016</p>
+          <p>Vaisakh Balakrishnan, Perisseri Parambil House Mookkuthala P.O Malappuram District. Pin : 679574 </p>
           <h5>Connect</h5>
           <ul class="social-buttons">
-            <li><a href="#"><i class="icon-twitter"></i></a></li>
-            <li><a href="#"><i class="icon-facebook2"></i></a></li>
-            <li><a href="#"><i class="icon-instagram2"></i></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100008468224722"><i class="icon-facebook2"></i></a></li>
+          <li><a href="https://instagram.com/vaisakh.balalrishnan"><i class="icon-instagram2"></i></a></li>
           </ul>
         </div>
       </nav>
