@@ -4,7 +4,7 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h4 class="heading">About Spider Web.</h4>
-            <p>I am a freelancer from Malapurram district of Kerala, I am blessed with some talentsthat everyone wishes to have..</p>
+            <p>I am a freelancer from Malapurram district of Kerala, I am blessed with some talents that everyone wishes to have..</p>
            
           </div> 
         </div>
