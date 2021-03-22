@@ -28,6 +28,7 @@ class HomeController extends Controller
        
         
         $images = Gallery::get();
+        
     	return view('home',compact('images'));
     }
     public function admin()

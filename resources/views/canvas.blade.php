@@ -21,7 +21,7 @@
 	@elseif(str_contains(url()->current(), 'canvas/Cartoon%20Caricature'))
 	<h1 style="text-align: center; text-decoration: underline;">Cartoon Caricature</h1>
 @endif
-		@foreach($images as $img)
+		@foreach($new as $img)
 		<div class="col-lg-3 col-md-4 col-xs-6 thumb">
 			<a href="../images/{{$img->image}}">
 				<figure><img class="img-fluid img-thumbnail" src="../images/{{$img->image}}" alt="Random Image"></figure>
