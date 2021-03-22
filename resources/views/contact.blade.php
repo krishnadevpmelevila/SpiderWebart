@@ -9,7 +9,7 @@
           <h4>Contact Details</h4>
           <ul class="with-icon colored">
             <li><i class="icon-location2"></i> <span>Vaisakh Balakrishnan, <br> Perisseri Parambil House <br> Mookkuthala P.O Malappuram District. <br>Pin : 679574 </span></li>
-            <li><i class="icon-mail"></i><span>info@spiderweb.online</span></li>
+            <li><i class="icon-mail"></i><span>vaisakhspiderweb@gmail.com</span></li>
             <li><i class="icon-phone2"></i><span>+91 85901 14511</span></li>
           </ul>
 
