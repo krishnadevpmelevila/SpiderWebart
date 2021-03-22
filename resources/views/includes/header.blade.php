@@ -13,14 +13,11 @@
         <ul class="probootstrap-main-nav">
           <li class="{{ Request::is('/') ? 'active' : '' }}"><a href="/">Home</a></li>
           <li class="{{ Request::is('work') ? 'active' : '' }}"><a href="/work">Works</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="{{ Request::is('contact') ? 'active' : '' }}"><a href="contact">Contact</a></li>
         </ul>
         <ul class="probootstrap-right-nav hidden-xs">
-          <li><a href="#"><i class="icon-twitter"></i></a></li>
-          <li><a href="#"><i class="icon-facebook2"></i></a></li>
-          <li><a href="#"><i class="icon-instagram2"></i></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100008468224722"><i class="icon-facebook2"></i></a></li>
+          <li><a href="https://instagram.com/vaisakh.balalrishnan"><i class="icon-instagram2"></i></a></li>
         </ul>
         <div class="extra-text visible-xs"> 
           <a href="#" class="probootstrap-burger-menu"><i>Menu</i></a>

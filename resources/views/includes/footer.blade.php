@@ -4,19 +4,18 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget">
             <h4 class="heading">About Spider Web.</h4>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-            <p><a href="#">Read more...</a></p>
+            <p>I am a freelancer from Malapurram district of Kerala, I am blessed with some talentsthat everyone wishes to have..</p>
+           
           </div> 
         </div>
         <div class="col-md-4">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
             <h4 class="heading">Quick Links</h4>
             <ul class="stack-link">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
-              <li><a href="#">Products</a></li>
-              <li><a href="#">Testimonial</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="work">Works</a></li>
+              <li><a href="contact">Contact</a></li>
+              
             </ul>
           </div>
         </div>
@@ -24,7 +23,7 @@
         <div class="col-md-4">
           <div class="probootstrap-footer-widget probootstrap-link-wrap">
             <h4 class="heading">Subscribe</h4>
-            <p>Far far away behind the word mountains far from.</p>
+            <p>Subscribe to get more updates from us!</p>
             <form action="#">
               <div class="form-field">
                 <input type="text" class="form-control" placeholder="Enter your email">

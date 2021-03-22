@@ -155,36 +155,23 @@ Spider Web Design And Arts | Home
     <div class="container">
       <div class="row">
         <div class="col-md-12 section-heading probootstrap-animate">
-          <h2>The Projects</h2>
+          <h2>Our Clients</h2>
         </div>
+        
       </div>
-      <div class="row">
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_1.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-            
-          </div>
+      
+      <div class="row col-md-12">
+      
+      <div class="col-md-6">
+      <iframe width="360" height="315" src="https://www.youtube.com/embed/DXsDzs2--kI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+       </div>
+       <div class="col-md-6">
+      <iframe width="360" height="315" src="https://www.youtube.com/embed/LU075omjVus" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_2.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-            
-          </div>
-        </div>
-        <div class="col-md-4 probootstrap-animate">
-          <div class="probootstrap-card">
-            <div class="probootstrap-card-media">
-              <a href="single-page.html"><img src="img/slider_3.jpg" class="img-responsive img-border" alt="Free HTML5 Template by uicookies.com"></a>
-            </div>
-           
-          </div>
-        </div>
-      </div>
     </div>
+    </div>
+    </div>
+    
   </section>
   <!-- END section -->
 @section('script')

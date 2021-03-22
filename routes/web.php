@@ -14,6 +14,12 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/vid', function () {
+    return view('video');
+});
+Route::get('/contact', function () {
+    return view('contact');
+});
 
 Route::get('/work','NewController@work' );
 Route::get('/canvas/{cat}','GalleryController@canvas' );

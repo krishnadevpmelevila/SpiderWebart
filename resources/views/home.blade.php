@@ -77,6 +77,7 @@
                 <option value="Portrait Colour Pencil Sketch">Portrait Colour Pencil Sketch</option>
                 <option value="Cartoon Caricature">Cartoon Caricature</option>
                 <option value="Acrylic Canvas Painting">Acrylic Canvas Painting</option>
+                <option value="Advertisment Works">Advertisment Works</option>
             </select>
         </div>
         <div class="col-md-6 text-right">
